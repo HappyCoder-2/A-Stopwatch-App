@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    /* background: rgb(39, 37, 37); */
+    /* text-align: right; */
+}
+
+/* Project - Stopwatch Program */
+
+.stopwatch-section {
+  background-image: url(images/Voras-Mountains-sunset-over-vergoritida-lake-view-mountain-1285181797.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.working-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+#myH1{
+  font-size: 4rem;
+  font-family: monospace;
+  color: hsl(0, 0%, 25%);
+  margin: 0 0 30px 0;
+}
+
+#display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0% 0.75);
+  margin-bottom: 25px;
+}
+
+#controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+#startBtn{
+  background-color: hsl(120, 100%, 40%);
+}
+
+#startBtn:hover{
+  background-color: hsl(120, 100%, 30%);
+}
+
+#stopBtn{
+  background-color: hsl(0, 100%, 50%);
+}
+
+#stopBtn:hover{
+  background-color: hsl(0, 100%, 40%);
+}
+
+#resetBtn{
+  background-color: hsl(240, 100%, 40%);
+}
+
+#resetBtn:hover{
+  background-color: hsl(240, 100%, 50%);
+}
